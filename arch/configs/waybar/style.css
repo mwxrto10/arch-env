@@ -1,0 +1,39 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: #000000;
+    color: #ffffff;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: #ffffff;
+}
+
+#workspaces button.active {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+#clock, #pulseaudio, #network, #tray, #custom-power, #custom-launcher {
+    padding: 0 10px;
+    background: transparent;
+    color: #ffffff;
+}
+
+#wlr-taskbar button {
+    padding: 0 5px;
+    background-color: transparent;
+}
+
+#wlr-taskbar button.active {
+    background-color: #222222;
+    border-radius: 5px;
+}

@@ -1,0 +1,63 @@
+configuration {
+    modi: "drun";
+    show-icons: true;
+    display-drun: "SEARCH";
+    font: "JetBrainsMono Nerd Font Bold 12";
+}
+
+* {
+    background-color: transparent;
+    text-color: #ffffff;
+    spacing: 0;
+}
+
+window {
+    width: 500px;
+    background-color: #000000;
+    border: 2px;
+    border-color: #9d00ff;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+inputbar {
+    children: [prompt, entry];
+    background-color: #111111;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+prompt {
+    text-color: #9d00ff;
+    padding: 0 10px 0 0;
+}
+
+entry {
+    placeholder: "Type to search...";
+    placeholder-color: #555555;
+}
+
+listview {
+    lines: 6;
+    columns: 1;
+}
+
+element {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+element selected {
+    background-color: #9d00ff;
+    text-color: #000000;
+}
+
+element-text {
+    vertical-align: 0.5;
+}
+
+element-icon {
+    size: 24px;
+    margin-right: 10px;
+}
